@@ -1,4 +1,4 @@
-package cs1660_intro_to_cloud_computing.DockerHw4;
+//package cs1660_intro_to_cloud_computing.DockerHw4;
 
 import java.io.IOException;
 //import java.util.StringTokenizer;
@@ -49,7 +49,7 @@ public class hadoopMapReduceHW {
 
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
-            System.err.println("Usage: hadoopMapReduceHW <input path> <output path>");
+            System.err.println("Usage: hadoopMapReduceHW <input> <output>");
             System.exit(-1);
         }
         Job job = new Job();
